@@ -24,26 +24,28 @@ h2{
     display: flex;
     justify-content: center;
 }
-.yellow{
-    background-color: #5F4B66;
-    box-shadow: 2px 2px 21px grey;
-    border: none;
-}
-.purple{
-    background-color: #A7ADC6;
-    box-shadow: 2px 2px 21px grey;
-    border: none;
-}
 .red{
-    background-color: #8797AF ;
+    background-color: #FCBFB7 ;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
+}
+.yellow{
+    background-color: #9FA2B2;
     box-shadow: 2px 2px 21px grey;
     border: none;
 }
 .green{
-    background-color:  #56667A;
+    background-color:  #3C7A89;
     box-shadow: 2px 2px 21px grey;
     border: none;
 }
+.purple{
+    background-color: #2E4756;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
+}
+
+
 .flash{
     background-color: white;
 }
