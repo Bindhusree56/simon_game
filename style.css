@@ -4,31 +4,82 @@ body{
 .btn {
     height: 200px;
     width: 200px;
-    border-radius: 20px;
-    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+   
     margin: 2vh;
     margin-bottom: 4vh;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
+.btn:hover{
+    transform: scale(1.03);
+}
+h1{
+    color: #2C1320;
+}
+h2{
+    color: #2C1320;
+}
+
 .btn-container{
     display: flex;
     justify-content: center;
 }
 .yellow{
-    background-color: #f99b45;
+    background-color: #5F4B66;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
 }
 .purple{
-    background-color: #819ff9;
+    background-color: #A7ADC6;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
 }
 .red{
-    background-color: #d95980 ;
+    background-color: #8797AF ;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
 }
 .green{
-    background-color:  #63aac0;
+    background-color:  #56667A;
+    box-shadow: 2px 2px 21px grey;
+    border: none;
 }
 .flash{
     background-color: white;
 }
 .userflash{
-    background-color: teal;
+    background-color: #2C1320;
 }
+button {
+    /* background-color: #A0D6B4; Pastel Teal */
+    color: #2C1320; /* Deep Teal */
+    border: 2px solid #2C1320;
+    ; /* Light Sea Green */
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px grey;
+  }
+  
+  button:hover {
+    background-color: white; /* Light Sea Green */
+    color: #2C1320;
+    transform: scale(1);
+    box-shadow: 0 6px 12px grey;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px grey;
+  }
+  
+  
+  
+  
+  
+  
